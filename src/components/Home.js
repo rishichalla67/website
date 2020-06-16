@@ -4,6 +4,7 @@ import linkedin from './linkedin.png';
 import github from './github.png';
 import email from './gmail.png';
 
+
 export default function Home() {
     return(
         <div className='bg'>
@@ -32,10 +33,13 @@ export default function Home() {
             <div className='Contact'>
                 <div id='Contact'>
                     <h2>Contact Me!</h2>
-                    <a href='https://www.linkedin.com/in/rishi-challa-7802b8179/' target="_blank"><img src={linkedin}/></a>
-                    <a href='https://github.com/rishichalla67' target="_blank"><img src={github}/></a>
-                    <a href='mailto:rishichalla67@gmail.com' target="_blank"><img src={email}/></a>
-                    <a>I am available for freelance website building, feel free to send me an email!</a>
+                    <p>I am available for freelance website building, feel free to send me an email!</p>
+                    <ul>
+                        <li><a href='https://www.linkedin.com/in/rishi-challa-7802b8179/' target="_blank"><img src={linkedin}/></a></li>
+                        <li><a href='https://github.com/rishichalla67' target="_blank"><img src={github}/></a></li>
+                        <li><a href='mailto:rishichalla67@gmail.com' target="_blank"><img src={email}/></a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>

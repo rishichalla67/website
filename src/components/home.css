@@ -91,6 +91,7 @@ html {
 .Contact {
 
     position: relative;
+    display: flex;
     padding-top: 5%;
     align-items: flex-end;
 
@@ -105,13 +106,22 @@ html {
     background: whitesmoke;
 }
 
-.Contact a{
+.Contact p{
     font-weight: 500;
     letter-spacing: 2px;
     text-decoration: none;
     background: transparent;
-    padding: 20px 5px;
-    display: inline-block;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+
     width: 100%;
     text-align: center;
+}
+
+.Contact li{
+    display: inline;
+    border: none;
+    padding: 5px;
+    margin-right: 50px;
 }
