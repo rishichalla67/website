@@ -1,0 +1,107 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3em 1.5em;
+}
+
+.bg {
+    background: lightskyblue;
+    background-image: url("../IMG_0076.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250vh;
+    opacity: 1;
+}
+
+.menu ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    flex: .090;
+}
+a {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: transparent;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    background: lightskyblue;
+
+}
+
+h1{
+    color: white;
+    font-family: "Corsiva Hebrew" ;
+    font-weight: 100;
+}
+
+.about {
+
+    position: relative;
+    padding-top: 45%;
+    align-items: flex-end;
+
+}
+
+.about h2{
+    font-family: "Corsiva Hebrew";
+
+}
+
+.about div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    border-style: outset;
+    background: whitesmoke;
+}
+
+.about p{
+    font-family: "Corsiva Hebrew";
+    font-size: larger;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Contact {
+
+    position: relative;
+    padding-top: 5%;
+    align-items: flex-end;
+
+}
+
+.Contact h2{
+    font-family: "Corsiva Hebrew";
+
+}
+
+.Contact div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    border-style: outset;
+    background: whitesmoke;
+}
+
+.Contact p{
+    font-family: "Corsiva Hebrew";
+    font-size: larger;
+
+}
