@@ -25,7 +25,7 @@
 .menu li {
     flex: .090;
 }
-a {
+.menu a {
     color: white;
     font-weight: 500;
     letter-spacing: 2px;
@@ -37,29 +37,32 @@ a {
     text-align: center;
 }
 
-a:hover {
+.menu a:hover {
     background: lightskyblue;
 
 }
 
 h1{
+
     color: white;
     font-family: "Corsiva Hebrew" ;
     font-weight: 100;
+    font-size: 45px;
 }
 
 .about {
 
     position: relative;
-    padding-top: 45%;
+    padding-top: 42%;
     align-items: flex-end;
 
 }
 
-.about h2{
-    font-family: "Corsiva Hebrew";
-
+.Contact img {
+    width: 50px;
+    height: auto;
 }
+
 
 .about div{
     margin-left: 20%;
@@ -69,10 +72,15 @@ h1{
     background: whitesmoke;
 }
 
-.about p{
-    font-family: "Corsiva Hebrew";
-    font-size: larger;
-
+.about a{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: transparent;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 html {
@@ -87,10 +95,6 @@ html {
 
 }
 
-.Contact h2{
-    font-family: "Corsiva Hebrew";
-
-}
 
 .Contact div{
     margin-left: 20%;
@@ -100,8 +104,13 @@ html {
     background: whitesmoke;
 }
 
-.Contact p{
-    font-family: "Corsiva Hebrew";
-    font-size: larger;
-
+.Contact a{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: transparent;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }

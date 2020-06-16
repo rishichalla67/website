@@ -1,5 +1,9 @@
 import React from 'react';
 import './home.css'
+import linkedin from './linkedin.png';
+import github from './github.png';
+import email from './gmail.png';
+
 export default function Home() {
     return(
         <div className='bg'>
@@ -20,20 +24,20 @@ export default function Home() {
             <div className='about'>
                 <div id='About'>
                     <h2>Who Am I?</h2>
-                    <p>Currently a University of Florida Computer Science Undergraduate Senior</p>
-                    <p>Interests: Web Design and App Development</p>
-                    <p>Hobbies: Playing sports and video games</p>
+                    <a>Currently a University of Florida Computer Science Undergraduate Senior</a>
+                    <a>Interests: Web Design and App Development</a>
+                    <a>Hobbies: Playing sports and video games</a>
                 </div>
             </div>
             <div className='Contact'>
                 <div id='Contact'>
                     <h2>Contact Me!</h2>
-                    <p>Currently a University of Florida Computer Science Undergraduate Senior</p>
-                    <p>Interests: Web Design and App Development</p>
-                    <p>Hobbies: Playing sports and video games</p>
+                    <a href='https://www.linkedin.com/in/rishi-challa-7802b8179/' target="_blank"><img src={linkedin}/></a>
+                    <a href='https://github.com/rishichalla67' target="_blank"><img src={github}/></a>
+                    <a href='mailto:rishichalla67@gmail.com' target="_blank"><img src={email}/></a>
+                    <a>I am available for freelance website building, feel free to send me an email!</a>
                 </div>
             </div>
-
         </div>
     );
 }
