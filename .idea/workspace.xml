@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaac4c5f-91a3-473a-b9d6-b85ded0fbb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/gmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons8-linkedin-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/linkedin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592242244154</updated>
-      <workItem from="1592242245833" duration="15062000" />
+      <workItem from="1592242245833" duration="15347000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, need to make it look better">
       <created>1592346084246</created>
@@ -113,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592346880376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="contact">
+      <created>1592349793224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592349793225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,13 +126,14 @@
     <MESSAGE value="first commit, need to make it look better" />
     <MESSAGE value="deployed" />
     <MESSAGE value="bg color" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg color" />
+    <MESSAGE value="contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="2" key="CommitChangelistDialog2" timestamp="1592346880098">
+    <state x="223" y="2" key="CommitChangelistDialog2" timestamp="1592350394475">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1592346880098" />
+    <state x="223" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1592350394475" />
     <state width="1259" height="84" key="GridCell.Tab.0.bottom" timestamp="1592344187569">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

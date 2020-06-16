@@ -5,7 +5,7 @@
 }
 
 .bg {
-    background: powderblue;
+    background-attachment: fixed;
     background-image: url("../IMG_0076.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -85,6 +85,7 @@ h1{
 
 html {
     scroll-behavior: smooth;
+
 }
 
 .Contact {
