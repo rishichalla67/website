@@ -85,6 +85,7 @@
 @media screen and (max-width: 390px) {
     .bg{
         width: 100vw;
+        background-attachment: fixed;
     }
 
     .Contact div {
@@ -218,3 +219,20 @@ html {
 
 }
 
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .bg{
+        width: 50vw;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .Contact div {
+        padding-left: -10%;
+    }
+    .about div{
+        padding-left: -10%;
+    }
+}
