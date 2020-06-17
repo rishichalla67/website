@@ -14,7 +14,7 @@ export default function Home() {
                 <nav className='menu'>
                     <ul>
                         <li><a href='#About'>About</a></li>
-                        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQSOCDVCV_YbrB1KyDhdKNONmSOLaW64JMBg_o5k89yvveSHFOmzuQoKuIovXlQBg9RZJDLeW7Pzelf/pub" target="_blank">Resume</a></li>
+                        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQSOCDVCV_YbrB1KyDhdKNONmSOLaW64JMBg_o5k89yvveSHFOmzuQoKuIovXlQBg9RZJDLeW7Pzelf/pub" target="_blank">Resumė</a></li>
                         <li><a href='#Contact'>Contact</a></li>
                         <li><a href='https://secure.actblue.com/donate/ms_blm_homepage_2019' target="_blank">Donate</a></li>
                     </ul>
@@ -28,6 +28,7 @@ export default function Home() {
                     <a>Currently a University of Florida Computer Science Undergraduate Senior</a>
                     <a>Interests: Web Design and App Development</a>
                     <a>Hobbies: Playing sports and video games</a>
+                    <a className='link' href="https://docs.google.com/document/d/e/2PACX-1vQSOCDVCV_YbrB1KyDhdKNONmSOLaW64JMBg_o5k89yvveSHFOmzuQoKuIovXlQBg9RZJDLeW7Pzelf/pub" target="_blank"><button className='button'>Resumė</button></a>
                 </div>
             </div>
             <div className='Contact'>

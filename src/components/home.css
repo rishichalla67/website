@@ -42,6 +42,27 @@
 
 }
 
+.button{
+    background-color: lightskyblue;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+
 h1{
 
     color: white;
@@ -52,6 +73,7 @@ h1{
 
 .about {
 
+    display: flex;
     position: relative;
     padding-top: 42%;
     align-items: flex-end;
@@ -99,11 +121,13 @@ html {
 
 
 .Contact div{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 8px;
     border-style: outset;
     background: whitesmoke;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .Contact p{
@@ -111,8 +135,7 @@ html {
     letter-spacing: 2px;
     text-decoration: none;
     background: transparent;
-    padding: 20px 30px;
-    display: flex;
+
     flex-direction: row;
 
     width: 100%;
