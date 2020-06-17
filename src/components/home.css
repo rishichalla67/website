@@ -14,6 +14,8 @@
     opacity: 1;
 }
 
+/* Nav Bar */
+
 .menu ul{
 
     list-style: none;
@@ -42,6 +44,115 @@
     background: lightskyblue;
 
 }
+
+/* About Me */
+
+.about {
+
+    display: flex;
+    position: relative;
+    padding-top: 42%;
+    align-items: flex-end;
+
+}
+
+.about div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    border-style: outset;
+    background: whitesmoke;
+    padding-left: 5%;
+    padding-right: 7%;
+    justify-content: center;
+}
+
+.about a{
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+.button{
+    background-color: lightskyblue;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Contact me */
+
+.Contact {
+
+    position: relative;
+    display: flex;
+    padding-top: 5%;
+    align-items: flex-end;
+
+}
+
+
+.Contact div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    border-style: outset;
+    background: whitesmoke;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: center;
+}
+
+.Contact img {
+    width: 4vw;
+    height: auto;
+}
+
+.Contact p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent;
+
+    flex-direction: row;
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.Contact li{
+    display: inline;
+    border: none;
+    padding: 10px;
+    margin-right: 50px;
+    flex: 3;
+
+}
+
+/* Mobile Formatting */
 
 @media screen and (max-width: 550px){
     .menu ul {
@@ -98,27 +209,12 @@
 
 }
 
-.button{
-    background-color: lightskyblue;
-    border-radius: 8px;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+/* native class */
 
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-weight: 400;
+html {
+    scroll-behavior: smooth;
+
 }
-
-.button:hover{
-    background-color: darkblue;
-    color: white;
-}
-
 
 h1{
 
@@ -131,92 +227,3 @@ h1{
 h2{
     font-size: 3vw;
 }
-
-.about {
-
-    display: flex;
-    position: relative;
-    padding-top: 42%;
-    align-items: flex-end;
-
-}
-
-.Contact img {
-    width: 4vw;
-    height: auto;
-}
-
-
-.about div{
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 8px;
-    border-style: outset;
-    background: whitesmoke;
-    padding-left: 5%;
-    padding-right: 7%;
-    justify-content: center;
-}
-
-.about a{
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background: transparent;
-    padding: 20px 5px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    font-size: 2vw;
-
-}
-
-html {
-    scroll-behavior: smooth;
-
-}
-
-.Contact {
-
-    position: relative;
-    display: flex;
-    padding-top: 5%;
-    align-items: flex-end;
-
-}
-
-
-.Contact div{
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 8px;
-    border-style: outset;
-    background: whitesmoke;
-    padding-right: 5%;
-    padding-left: 5%;
-    justify-content: center;
-}
-
-.Contact p{
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background: transparent;
-
-    flex-direction: row;
-    font-size: 2vw;
-    width: 100%;
-    text-align: center;
-}
-
-
-
-.Contact li{
-    display: inline;
-    border: none;
-    padding: 10px;
-    margin-right: 50px;
-    flex: 3;
-
-}
-
