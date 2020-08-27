@@ -10,7 +10,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 240vh;
     opacity: 1;
 }
 
@@ -129,6 +128,8 @@
     height: auto;
 }
 
+
+
 .Contact p{
     font-weight: 500;
     letter-spacing: 1px;
@@ -149,6 +150,11 @@
     padding: 10px;
     margin-right: 50px;
     flex: 3;
+
+}
+
+/* Portfolio */
+.portfolio{
 
 }
 
@@ -216,14 +222,23 @@ html {
 
 }
 
-h1{
-
+.body > h1{
+    padding-bottom: 3vh;
     color: white;
-    font-family: "Corsiva Hebrew" ;
+    font-family: "Corsiva Hebrew";
     font-weight: 100;
     font-size: 4.5vw;
 }
 
-h2{
-    font-size: 3vw;
+
+.body > h2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 900;
+    font-size: 3.5vw;
+    font-family: "Corsiva Hebrew";
+
 }

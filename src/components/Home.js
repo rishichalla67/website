@@ -3,6 +3,9 @@ import './home.css'
 import linkedin from './linkedin.png';
 import github from './github.png';
 import email from './gmail.png';
+import { MenuList, MenuItem, Button } from '@material-ui/core';
+import Portfolio from "./Portfolio";
+import {Link} from "react-router-dom";
 
 
 export default function Home() {
@@ -12,14 +15,18 @@ export default function Home() {
             <div className='main'>
 
                 <nav className='menu'>
-                    <ul>
+                    <ul className='navbar'>
                         <li><a href='#About'>About</a></li>
                         <li><a href="https://docs.google.com/document/d/e/2PACX-1vQSOCDVCV_YbrB1KyDhdKNONmSOLaW64JMBg_o5k89yvveSHFOmzuQoKuIovXlQBg9RZJDLeW7Pzelf/pub" target="_blank">Resumė</a></li>
                         <li><a href='#Contact'>Contact</a></li>
                         <li><a href='https://secure.actblue.com/donate/ms_blm_homepage_2019' target="_blank">Donate</a></li>
+
                     </ul>
                 </nav>
-                <h1>Hey, I'm Rishi Challa</h1>
+                <div className='body'>
+                    <h1>Hey, I'm Rishi Challa</h1>
+                    <h2><Link to='/Portfolio' style={{textDecoration: 'none', color: 'blue', }}> Coding Projects </Link></h2>
+                </div>
             </div>
             <div className='back'></div>
             <div className='about'>

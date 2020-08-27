@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch, Redirect  } from 'react-router-dom';
-
+import Portfolio from "./components/Portfolio";
 
 class App extends Component {
 
@@ -13,6 +13,7 @@ class App extends Component {
                 <div className={'App'}>
                     <Switch>
                         <Route exact path="/" component={Home} />
+                        <Route exact path="/Portfolio" component={Portfolio}/>
 
                         <Route exact path="/">
                         </Route>
