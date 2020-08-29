@@ -9,12 +9,10 @@
     justify-content: center;
 
     padding: 5vh;
-    border-bottom: 3px dashed black;
 }
 
 
 .box{
-    border-bottom: 2px dotted black;
     cursor: pointer;
     padding-bottom: 5vh;
     font-weight: 600;
