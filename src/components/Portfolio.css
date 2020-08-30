@@ -13,11 +13,13 @@
 
 
 .box{
+    justify-content: space-between;
     padding-bottom: 5vh;
     font-weight: 600;
 }
 
 .box > a{
+
     text-decoration: none;
     color: blue;
     cursor: pointer;
@@ -27,6 +29,7 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
+    padding: 10px;
 }
 
 .title{
