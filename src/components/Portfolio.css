@@ -5,15 +5,14 @@
     background: linear-gradient(to right, #d8ebf6, #8395c1);
 }
 
-.Portfolio > h1 {
-    justify-content: center;
+/*.Portfolio > h1 {*/
+/*    justify-content: center;*/
 
-    padding: 5vh;
-}
+/*    padding: 5vh;*/
+/*}*/
 
 
 .box{
-    cursor: pointer;
     padding-bottom: 5vh;
     font-weight: 600;
 }
@@ -21,10 +20,33 @@
 .box > a{
     text-decoration: none;
     color: blue;
+    cursor: pointer;
 }
 
 .box > p{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+
+}
+
+.title > h1{
+    margin-right: 30px;
+    flex-grow: 1;
+    font-size: 30px;
+
+}
+
+.title > h2 {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 50px;
+    padding-bottom: 3vh;
+}
