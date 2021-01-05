@@ -5,10 +5,12 @@
 }
 
 .bg {
-    background-attachment: fixed;
-    background-image: url("../IMG_0076.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    /*background-image: url("../IMG_0076.jpeg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+
+    /*background: linear-gradient(to right, lightblue, lightcyan);*/
     width: 100vw;
     opacity: 1;
 }
@@ -19,15 +21,14 @@
 
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
 }
 
 .menu li {
-    flex: .10;
+    flex: .50;
 }
 .menu a {
-    color: white;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
@@ -39,8 +40,9 @@
     font-size: 2vw;
 }
 
+
 .menu a:hover {
-    background: lightskyblue;
+    background: inherit;
 
 }
 
@@ -50,7 +52,7 @@
 
     display: flex;
     position: relative;
-    padding-top: 42%;
+    padding-top: 5%;
     align-items: flex-end;
 
 }
@@ -78,6 +80,8 @@
     font-size: 2vw;
 
 }
+
+
 
 .button{
     background-color: lightskyblue;
@@ -143,7 +147,6 @@
 }
 
 
-
 .Contact li{
     display: inline;
     border: none;
@@ -151,6 +154,10 @@
     margin-right: 50px;
     flex: 3;
 
+}
+
+.main{
+    display: inline;
 }
 
 /* Portfolio */
@@ -224,7 +231,7 @@ html {
 
 .body > h1{
     padding-bottom: 3vh;
-    color: white;
+
     font-family: "Corsiva Hebrew";
     font-weight: 100;
     font-size: 4.5vw;
