@@ -42,7 +42,7 @@ export default function Home() {
                         </nav>
                         <div className='body'>
                             <h1 color={text}>Hey, I'm Rishi Challa</h1>
-                            {/*<h2><Link to='/Portfolio' style={{textDecoration: 'none', color: 'black', }}> Coding Projects </Link></h2>*/}
+                            <h2><Link to='/Portfolio' style={{textDecoration: 'none', color: {text}, }}> Coding Projects </Link></h2>
                         </div>
                     </div>
                     <div className='back'></div>
