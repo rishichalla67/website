@@ -1,251 +1,163 @@
-.main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 3em 1.5em;
-}
-
-.bg {
-    /*background-attachment: fixed;*/
-    /*background-image: url("../IMG_0076.jpeg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-
-    /*background: linear-gradient(to right, lightblue, lightcyan);*/
-    width: 100vw;
-    opacity: 1;
-}
-
-/* Nav Bar */
-
-.menu ul{
-
-    list-style: none;
-    margin: 0;
+*{
+    margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
     display: flex;
-}
-
-.menu li {
-    flex: .50;
-}
-.menu a {
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background: transparent;
-    padding: 20px 5px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    font-size: 2vw;
-}
-
-
-.menu a:hover {
-    background: inherit;
-
-}
-
-/* About Me */
-
-.about {
-
-    display: flex;
-    position: relative;
-    padding-top: 5%;
-    align-items: flex-end;
-
-}
-
-.about div{
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 8px;
-    border-style: outset;
-    background: whitesmoke;
-    padding-left: 5%;
-    padding-right: 7%;
+    align-items: center;
     justify-content: center;
 }
 
-.about a{
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background: transparent;
-    padding: 20px 5px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+.box {
+    width: 65vw;
+    height: 90vh;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 3px 2px black;
+
+}
+
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 1vh;
+}
+
+.container ul{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.container h3{
     font-size: 2vw;
-
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
 }
 
-
-
-.button{
-    background-color: lightskyblue;
-    border-radius: 8px;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-weight: 400;
-}
-
-.button:hover{
-    background-color: darkblue;
-    color: white;
-}
-
-/* Contact me */
-
-.Contact {
-
-    position: relative;
-    display: flex;
-    padding-top: 5%;
-    align-items: flex-end;
-
-}
-
-
-.Contact div{
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 8px;
-    border-style: outset;
-    background: whitesmoke;
-    padding-right: 5%;
-    padding-left: 5%;
+.container h1{
+    align-items: center;
+    font-size: 3vw;
+    font-weight: bold;
     justify-content: center;
 }
 
-.Contact img {
-    width: 4vw;
-    height: auto;
+.container hr{
+
+    border: 2px dashed black;
 }
 
-
-
-.Contact p{
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background: transparent;
-
-    flex-direction: row;
-    font-size: 2vw;
-    width: 100%;
-    text-align: center;
-}
-
-
-.Contact li{
-    display: inline;
-    border: none;
-    padding: 10px;
-    margin-right: 50px;
-    flex: 3;
-
-}
-
-.main{
-    display: inline;
-}
-
-/* Portfolio */
-.portfolio{
-
-}
-
-/* Mobile Formatting */
-
-@media screen and (max-width: 550px){
-    .menu ul {
-        width: auto;
-        margin-top: 0;
+@media only screen and (max-width: 870px){
+    .container {
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
 
-    .menu a{
-        font-size: 10px;
-    }
-    .bg{
-        width: 100%;
-        height: 200vh;
-        background-attachment: fixed;
+    .box {
+        width: 65vw;
+        height: 90vh;
+        border-width: 5px;
+        border-color: black;
+        box-shadow: 3px 2px black;
+
     }
 
-    h1{
-        margin-top: 0;
+    .navbar{
+        padding-top: 10px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+        padding-bottom: 1vh;
+    }
+
+    .container ul{
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    .container a{
+        fontSize: small;
+    }
+
+
+    .container h3{
+        font-size: 12px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .container h1{
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
         justify-content: center;
     }
 
-    .Contact div {
-        padding-left: 0;
+    .container hr{
+
+        border: 1px dashed black;
     }
-    .about div{
-        padding-left: 0;
+}
+
+@media only screen and (max-width: 375px){
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .button{
+    .box {
+        width: 65vw;
+        height: 90vh;
+        border-width: 5px;
+        border-color: black;
+        box-shadow: 3px 2px black;
+
+    }
+
+    .navbar{
+        padding-top: 10px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+        padding-bottom: 1vh;
+    }
+
+    .container ul{
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    .container a{
+        fontSize: small;
+    }
+
+
+    .container h3{
         font-size: 10px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
     }
 
-    .Contact p{
-        font-size: 10px;
+    .container h1{
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+        justify-content: center;
     }
 
-    .about a{
-        font-size: 10px;
+    .container hr{
+
+        border: 1px dashed black;
     }
-}
-@media screen and (max-width: 390px) {
-    .bg{
-        width: 100vw;
-        background-attachment: fixed;
-    }
-
-    .Contact div {
-        padding-left: -10%;
-    }
-    .about div{
-        padding-left: -10%;
-    }
-
-}
-
-/* native class */
-
-html {
-    scroll-behavior: smooth;
-
-}
-
-.body > h1{
-    padding-bottom: 3vh;
-
-    font-family: "Corsiva Hebrew";
-    font-weight: 100;
-    font-size: 4.5vw;
-}
-
-
-.body > h2 {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    margin-right: auto;
-    margin-left: auto;
-    font-weight: 900;
-    font-size: 3.5vw;
-    font-family: "Corsiva Hebrew";
-
 }

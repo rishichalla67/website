@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(to right, #d8ebf6, #8395c1);
+
+    /*background: linear-gradient(to right, #d8ebf6, #8395c1);*/
 }
 
 /*.Portfolio > h1 {*/
@@ -23,6 +24,7 @@
     text-decoration: none;
     color: blue;
     cursor: pointer;
+
 }
 
 .box > p{
@@ -32,23 +34,29 @@
     padding: 10px;
 }
 
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
 .title{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5vh;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
 
 }
 
 .title > h1{
-    margin-right: 30px;
+    /*margin-right: 30px;*/
     flex-grow: 1;
-    font-size: 30px;
-
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -50px;
 }
 
 .title > h2 {
-    margin-left: 30px;
+
     text-decoration: none;
     font-size: 50px;
     padding-bottom: 3vh;
