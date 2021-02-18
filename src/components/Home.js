@@ -1,9 +1,6 @@
 import React from 'react';
 import './home.css'
 import Divider from '@material-ui/core/Divider';
-import linkedin from './linkedin.png';
-import github from './github.png';
-import email from './gmail.png';
 import { Box, MenuList, MenuItem, Button } from '@material-ui/core';
 import Portfolio from "./Portfolio";
 import {Link} from "react-router-dom";
@@ -18,7 +15,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 export default function Home() {
     return(
-        <div style={{backgroundColor: 'lightcyan', height:"100vh"}} className='container'>
+        <div className='container'>
             <div className="box">
                 <div className='navbar'>
                     <h3>Resumé</h3>
@@ -30,6 +27,9 @@ export default function Home() {
                     </ul>
                 </div>
                 <hr />
+            </div>
+            <div className="body">
+
             </div>
         </div>
     );

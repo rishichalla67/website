@@ -8,6 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: lightcyan;
+    height: 100vh;
 }
 
 .box {
@@ -50,16 +52,17 @@
     border: 2px dashed black;
 }
 
-@media only screen and (max-width: 870px){
+@media only screen and (max-width: 870px) and (min-height: 700px){
     .container {
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     .box {
-        width: 65vw;
-        height: 90vh;
+        width: 85vw;
+        height: 70vh;
         border-width: 5px;
         border-color: black;
         box-shadow: 3px 2px black;
@@ -114,8 +117,8 @@
     }
 
     .box {
-        width: 65vw;
-        height: 90vh;
+        width: 85vw;
+        height: 50vh;
         border-width: 5px;
         border-color: black;
         box-shadow: 3px 2px black;
