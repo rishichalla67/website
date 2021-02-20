@@ -18,7 +18,7 @@ export default function Home() {
         <div className='container'>
             <div className="box">
                 <div className='navbar'>
-                    <h3>Resumé</h3>
+                    <h3><a href='https://docs.google.com/document/d/e/2PACX-1vR0-_ctgqtTl26HuxAIRV12OmANYFHgfS5-QBgfc-yohFdgidSdx2QcDOqFPzIR-Tg1ofNjuEm5iAp_/pub'>Resumé</a></h3>
                     <h1>Rishi Challa</h1>
                     <ul>
                         <a href='https://www.linkedin.com/in/rishi-challa-7802b8179/'><LinkedInIcon /></a>
@@ -27,10 +27,12 @@ export default function Home() {
                     </ul>
                 </div>
                 <hr />
-            </div>
-            <div className="body">
+                <div className="body">
+                    <h2> Projects </h2>
 
+                </div>
             </div>
+
         </div>
     );
 }

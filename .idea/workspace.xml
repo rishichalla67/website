@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaac4c5f-91a3-473a-b9d6-b85ded0fbb13" name="Default Changelist" comment="">
+    <list default="true" id="aaac4c5f-91a3-473a-b9d6-b85ded0fbb13" name="Default Changelist" comment="fixing box size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gmail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons8-linkedin-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/linkedin.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,8 @@
       <workItem from="1606342360253" duration="1673000" />
       <workItem from="1609879841902" duration="7030000" />
       <workItem from="1613484591903" duration="2116000" />
-      <workItem from="1613512406483" duration="15747000" />
+      <workItem from="1613512406483" duration="17759000" />
+      <workItem from="1613850840876" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, need to make it look better">
       <created>1592346084246</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609889471104</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixing box size">
+      <created>1613659564141</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613659564141</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +274,8 @@
     <MESSAGE value="cleaner css organization" />
     <MESSAGE value="Added portfolio page" />
     <MESSAGE value="integrating Chakra UI and revamping website to reflect skill accurately" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrating Chakra UI and revamping website to reflect skill accurately" />
+    <MESSAGE value="fixing box size" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing box size" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
