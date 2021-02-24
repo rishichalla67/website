@@ -10,12 +10,12 @@
     justify-content: center;
     background: radial-gradient(circle, rgba(77,255,241,1) 38%, rgba(84,255,216,1) 49%, rgba(95,255,178,1) 66%, rgba(91,255,226,1) 87%);
     height: 100vh;
-    padding-top: 2vh;
+    padding-top: 3.5vh;
 }
 
 .box {
     width: 65vw;
-    height: 90vh;
+    height: 85vh;
     border-width: 5px;
     border-color: black;
     box-shadow: 3px 2px black;
@@ -59,14 +59,18 @@
     padding-top: 4vw;
     padding-bottom: 4vw;
     font-size: 3vw;
+    text-decoration: underline;
 }
 
 .body a{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+    font-weight: 900;
+
 }
 
 .button {
     transition-duration: 0.4s;
+    font-weight: 900;
 }
 
 .button:hover {
@@ -78,7 +82,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        padding-top: 2vh;
+        padding-top: 15vw;
     }
 
     .box {
@@ -135,6 +139,7 @@
         padding-top: 7vw;
         padding-bottom: 3vw;
         font-size: 4vw;
+        text-decoration: underline;
     }
 
     .body a{
@@ -149,7 +154,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        padding-top: 2vh;
+        padding-top: 30vw;
     }
 
     .box {
@@ -209,9 +214,11 @@
         padding-top: 12vw;
         padding-bottom: 2vw;
         font-size: 5vw;
+        text-decoration: underline;
     }
 
     .body a{
         font-size: 4vw;
+        font-weight: bolder;
     }
 }
