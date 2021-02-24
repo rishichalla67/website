@@ -9,7 +9,9 @@ import Brightness4OutlinedIcon from '@material-ui/icons/Brightness4Outlined';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-
+import {Center, HStack} from "@chakra-ui/react";
+import HuluLogo from '../Logos/Hulu.jpg'
+import airbnbLogo from '../Logos/airbnb.jpg'
 
 
 
@@ -29,7 +31,35 @@ export default function Home() {
                 <hr />
                 <div className="body">
                     <h2> Projects </h2>
+                    <Center>
+                        <HStack spacing="17.5vw" paddingTop="50px">
+                            {/*<a href="https://rishi-challa-hulu-clone.web.app/" target="blank">*/}
+                            {/*    <img src={HuluLogo} alt='hulu logo' width='100px' height='70px'></img>*/}
+                            {/*</a>*/}
+                            <a href="https://rishi-challa-hulu-clone.web.app/" target="blank"><button>Hulu UI Clone</button></a>
+                            <p></p>
+                            <h3><a href="https://github.com/rishichalla67/hulu-clone" target="blank"><GitHubIcon/></a></h3>
+                        </HStack>
+                    </Center>
+                    <Center>
+                        <HStack spacing="15.75vw" paddingTop="50px" paddingLeft="-500px">
 
+                            {/*<a href="https://rishi-challa-airbnb-clone.web.app/" target="blank">*/}
+                            {/*    <img src={airbnbLogo} alt='airbnb logo' width='100px' height='70px'></img>*/}
+                            {/*</a>*/}
+                            <a href="https://rishi-challa-airbnb-clone.web.app/" target="blank"><button>Airbnb UI Clone</button></a>
+                            <p></p>
+                            <h3><a href="https://github.com/rishichalla67/airbnb_clone" target="blank"><GitHubIcon/></a></h3>
+                        </HStack>
+                    </Center>
+                    <Center>
+                        <HStack spacing="13.5vw" paddingTop="50px">
+
+                            <a className='qiskit'><button>Qiskit/Python Game</button></a>
+                            <p></p>
+                            <h3><a href="https://github.com/mfarina1/qwack" target="blank"><GitHubIcon/></a></h3>
+                        </HStack>
+                    </Center>
                 </div>
             </div>
 
