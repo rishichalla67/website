@@ -36,7 +36,7 @@ export default function Home() {
                             {/*<a href="https://rishi-challa-hulu-clone.web.app/" target="blank">*/}
                             {/*    <img src={HuluLogo} alt='hulu logo' width='100px' height='70px'></img>*/}
                             {/*</a>*/}
-                            <a href="https://rishi-challa-hulu-clone.web.app/" target="blank"><button>Hulu UI Clone</button></a>
+                            <button><a href="https://rishi-challa-hulu-clone.web.app/" target="blank">Hulu UI Clone</a></button>
                             <p></p>
                             <h3><a href="https://github.com/rishichalla67/hulu-clone" target="blank"><GitHubIcon/></a></h3>
                         </HStack>
@@ -47,7 +47,7 @@ export default function Home() {
                             {/*<a href="https://rishi-challa-airbnb-clone.web.app/" target="blank">*/}
                             {/*    <img src={airbnbLogo} alt='airbnb logo' width='100px' height='70px'></img>*/}
                             {/*</a>*/}
-                            <a href="https://rishi-challa-airbnb-clone.web.app/" target="blank"><button>Airbnb UI Clone</button></a>
+                            <button><a href="https://rishi-challa-airbnb-clone.web.app/" target="blank">Airbnb UI Clone</a></button>
                             <p></p>
                             <h3><a href="https://github.com/rishichalla67/airbnb_clone" target="blank"><GitHubIcon/></a></h3>
                         </HStack>
@@ -55,7 +55,7 @@ export default function Home() {
                     <Center>
                         <HStack spacing="13.5vw" paddingTop="50px">
 
-                            <a className='qiskit'><button>Qiskit/Python Game</button></a>
+                            <a className='qiskit'>Qiskit/Python Game</a>
                             <p></p>
                             <h3><a href="https://github.com/mfarina1/qwack" target="blank"><GitHubIcon/></a></h3>
                         </HStack>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aaac4c5f-91a3-473a-b9d6-b85ded0fbb13" name="Default Changelist" comment="fixing box size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +106,8 @@
       <workItem from="1609879841902" duration="7030000" />
       <workItem from="1613484591903" duration="2116000" />
       <workItem from="1613512406483" duration="17759000" />
-      <workItem from="1613850840876" duration="8249000" />
+      <workItem from="1613850840876" duration="8668000" />
+      <workItem from="1614885490467" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, need to make it look better">
       <created>1592346084246</created>
