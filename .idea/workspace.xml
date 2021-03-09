@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aaac4c5f-91a3-473a-b9d6-b85ded0fbb13" name="Default Changelist" comment="fixing box size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613659564141</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Revert &quot;new site&quot;&#10;&#10;This reverts commit 52c5dc5d">
+      <created>1615328931528</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615328931528</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +259,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1614724101673" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -276,7 +295,8 @@
     <MESSAGE value="Added portfolio page" />
     <MESSAGE value="integrating Chakra UI and revamping website to reflect skill accurately" />
     <MESSAGE value="fixing box size" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing box size" />
+    <MESSAGE value="Revert &quot;new site&quot;&#10;&#10;This reverts commit 52c5dc5d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;new site&quot;&#10;&#10;This reverts commit 52c5dc5d" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

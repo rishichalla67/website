@@ -13,7 +13,10 @@ class App extends Component {
                 <Router>
                     <div className={'App'}>
                         <Switch>
-                            <Route exact path="/" component={Home} />
+                            <Route exact path='/' component={() => {
+                                window.location.href = 'https://rishichalla67.github.io/Portfolio/';
+                                return null;
+                            }}/>
                             <Route exact path="/Portfolio" component={Portfolio}/>
 
                             <Route exact path="/">
