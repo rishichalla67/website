@@ -6,7 +6,7 @@
 
 ### HTML/CSS 
 
-## This is my old portfolio website, please wait checkout the new site here: 
+## This is my old portfolio website, please checkout the updated site here: 
 
 https://rishichalla67.github.io/Portfolio/
 
