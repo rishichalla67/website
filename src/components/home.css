@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(77,255,241,1) 38%, rgba(84,255,216,1) 49%, rgba(95,255,178,1) 66%, rgba(91,255,226,1) 87%);
+    height: 100vh;
+    padding-top: 3.5vh;
+}
+
+.box {
+    width: 65vw;
+    height: 85vh;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 3px 2px black;
+    padding-top: 1vh;
+    background: lightcyan;
+}
+
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 1vh;
+}
+
+.container ul{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.container h3{
+    font-size: 2vw;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.container h1{
+    align-items: center;
+    font-size: 3vw;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.container hr{
+
+    border: 2px dashed black;
+}
+
+.body h2{
+    padding-left: 2vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.body a{
+    font-size: 1.5vw;
+    font-weight: 900;
+
+}
+
+.body button {
+    transition-duration: 0.4s;
+    font-weight: 100;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.body button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 870px) and (min-height: 700px){
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 15vw;
+    }
+
+    .box {
+        width: 85vw;
+        height: 75vh;
+        border-width: 5px;
+        border-color: black;
+        box-shadow: 3px 2px black;
+        background: lightcyan;
+
+    }
+
+    .navbar{
+        padding-top: 10px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+        padding-bottom: 1vh;
+    }
+
+    .container ul{
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    .container a{
+        fontSize: small;
+    }
+
+
+    .container h3{
+        font-size: 12px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .container h1{
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .container hr{
+
+        border: 1px dashed black;
+    }
+
+    .body h2{
+        padding-left: 1vw;
+        padding-top: 7vw;
+        padding-bottom: 3vw;
+        font-size: 4vw;
+        text-decoration: underline;
+    }
+
+    .body a{
+
+        font-size: 2.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 30vw;
+    }
+
+    .box {
+        width: 85vw;
+        height: 70vh;
+        border-width: 5px;
+        border-color: black;
+        box-shadow: 3px 2px black;
+
+    }
+
+    .navbar{
+        padding-top: 10px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+        padding-bottom: 1vh;
+    }
+
+    .navbar a{
+
+    }
+
+    .container ul{
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    .container a{
+        fontSize: small;
+    }
+
+
+    .container h3{
+        font-size: 12px;
+        align-items: center;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .container h1{
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .container hr{
+
+        border: 1px dashed black;
+    }
+
+    .body h2{
+        padding-left: 2vw;
+        padding-top: 12vw;
+        padding-bottom: 2vw;
+        font-size: 5vw;
+        text-decoration: underline;
+    }
+
+    .body a{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+}
